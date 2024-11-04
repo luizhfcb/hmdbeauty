@@ -6,7 +6,7 @@
 
 body {
     background-image: url("https://img.freepik.com/vetores-gratis/fundo-de-maquiagem-realista_23-2149373139.jpg");
-    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    background-repeat: no-repeat; 
     background-size: cover;
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -23,7 +23,7 @@ body {
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
     z-index: 1000;
     display: flex;
-    justify-content: space-between; /* Espaça logo e navegação */
+    justify-content: space-between; 
     align-items: center;
 }
 
@@ -43,30 +43,30 @@ body {
     font-size: 18px;
 }
 
-/* Aumentando a área de interação do Atendimento */
+
 #atendimento {
     color: pink;
     text-decoration: none;
-    padding: 15px 25px; /* Aumentado */
+    padding: 15px 25px; 
     cursor: pointer;
     display: inline-block;
 }
 
-/* Esconde o submenu inicialmente */
+
 .submenu {
     display: none;
     position: absolute;
-    top: 100%; /* Fica logo abaixo do item Atendimento */
+    top: 100%; 
     left: auto;
     right: 0;
     background-color: #444;
     border-radius: 5px;
     min-width: 200px;
-    margin-top: 0; /* Removido para evitar espaço extra */
+    margin-top: 0; 
     z-index: 1;
 }
 
-/* Mostra o submenu ao passar o mouse sobre #atendimento ou sobre o submenu */
+
 .menu-item:hover .submenu,
 .submenu:hover {
     display: block;
@@ -86,7 +86,7 @@ body {
     background-color: #555;
 }
 
-/* Ajustes responsivos */
+
 @media (max-width: 768px) {
     .menu {
         padding: 8px 10px;
@@ -103,7 +103,7 @@ body {
     }
 
     #atendimento {
-        padding: 10px 15px; /* Mantenha consistente */
+        padding: 10px 15px; /
     }
 
     .submenu {
